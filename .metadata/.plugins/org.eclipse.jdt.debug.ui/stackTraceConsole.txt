@@ -1,0 +1,5 @@
+java.lang.NullPointerException
+	at com.propertyfile.Conf_Reader.getusername(Conf_Reader.java:16)
+	at com.stepdefinition.Adactinbooking.user_should_enter_valid_username(Adactinbooking.java:31)
+	at ?.user should enter valid username(file:///C:/Users/PRIYA/SelviSelenium-Workspace22/Adactin_Final/src/test/resources/Adactin.feature:4)
+

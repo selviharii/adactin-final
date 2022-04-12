@@ -1,0 +1,27 @@
+package com.pom;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+public class Conf_Reader {
+	public static Properties p;
+	
+	public void conf() throws IOException {
+		
+		FileInputStream f=new FileInputStream("C:\\Users\\PRIYA\\SelviSelenium-Workspace22\\Adactin_Final\\configuraton.properties");
+		p=new Properties();
+		p.load(f);
+		
+		}
+	 public String getusername() {
+	    	String user = p.getProperty("username");
+	    	return user;   
+	    	}
+	    public String getpassword() {
+	    	String password = p.getProperty("password");
+	    	return password;   
+	    	}
+
+
+}

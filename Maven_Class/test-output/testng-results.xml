@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23854" started-at="2022-04-06T08:28:40 IST" finished-at="2022-04-06T08:29:04 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23854" started-at="2022-04-06T08:28:40 IST" finished-at="2022-04-06T08:29:04 IST">
+      <class name="com.testng.Dataprovider">
+        <test-method status="PASS" signature="dp(java.lang.String,java.lang.String)[pri:0, instance:com.testng.Dataprovider@e874448]" name="dp" duration-ms="14160" started-at="2022-04-06T08:28:40 IST" data-provider="login" finished-at="2022-04-06T08:28:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selviharish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vihaan1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dp -->
+        <test-method status="PASS" signature="dp(java.lang.String,java.lang.String)[pri:0, instance:com.testng.Dataprovider@e874448]" name="dp" duration-ms="9654" started-at="2022-04-06T08:28:54 IST" data-provider="login" finished-at="2022-04-06T08:29:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selviharish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vihaan1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dp -->
+      </class> <!-- com.testng.Dataprovider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

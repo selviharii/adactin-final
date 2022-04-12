@@ -1,0 +1,28 @@
+package com.testng;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+public class Hard_Softassert {
+
+	
+	@Test
+	public static void asse() {
+		
+		String actual="arjun";
+		String expected="arj";
+		
+		//hardassert
+		//Assert.assertEquals(actual, expected);
+		//Assert.assertNotEquals(actual, expected)
+
+		
+		//softassert
+		
+		SoftAssert soft=new SoftAssert();
+		soft.assertEquals(actual, expected);
+		
+	
+	}
+}

@@ -1,0 +1,26 @@
+package com.stepdefinition;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import com.Maven_final.Base_Class;
+import com.Maven_final.Pom_Class;
+
+
+public class Adactin_Booking extends Base_Class{
+
+	public static WebDriver driver=Base_Class.browser_Launch();
+
+	public static void main(String[] args) throws IOException {
+	
+		
+		url("https://adactinhotelapp.com/");
+		PageFactory.initElements(driver,Pom_Class.class);
+
+       }
+}
+
+
+	

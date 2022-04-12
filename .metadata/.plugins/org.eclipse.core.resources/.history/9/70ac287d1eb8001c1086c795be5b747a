@@ -1,0 +1,7 @@
+
+Feature: 
+
+  @tag1
+  Scenario: To validate adactin
+    Given I login into adaction
+    

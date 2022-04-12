@@ -1,0 +1,15 @@
+package com.runnableclass;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+
+
+
+
+	@RunWith(Cucumber.class)
+	@cucumber(features="C:\\Users\\PRIYA\\SelviSelenium-Workspace22\\Adactin_Final\\src\\test\\resources\\Adactin.feature" ,
+	                  glue = "com.stepdefinition" , strict=true)
+	
+	public class Adactin_Runnable {
+}

@@ -1,0 +1,8 @@
+Feature: room booking on adactin hotel  
+ Scenario: user should be able login into  adactin page
+    Given adactin hotel website loginpage should be open
+    When user should enter valid username
+    And user should enter valid password
+    Then aferclicking login button navigate to homepage
+    
+  

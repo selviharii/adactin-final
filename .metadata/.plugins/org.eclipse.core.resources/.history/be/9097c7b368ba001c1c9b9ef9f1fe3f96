@@ -1,0 +1,5 @@
+package com.propertyfile;
+
+public class Conf_Reader {
+
+}

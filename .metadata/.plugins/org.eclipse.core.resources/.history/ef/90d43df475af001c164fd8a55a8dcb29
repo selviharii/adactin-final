@@ -1,0 +1,16 @@
+package com.Maven_Class;
+
+public class Class_Pojo1 {
+
+	public static void main(String[] args) {
+		Class_Pojo a=new Class_Pojo();
+		a.setName("ram");
+		a.setLastname('R');
+		a.setSalary(30000);
+		System.out.println(a.getName());
+		System.out.println(a.getLastname());
+		System.out.println(a.getSalary());
+		
+	}
+
+}

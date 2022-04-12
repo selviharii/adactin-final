@@ -1,0 +1,65 @@
+package com.stepdefinition;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class Adactinbooking {
+	
+	@Given("adactin hotel website loginpage should be open")
+	public void adactin_hotel_website_loginpage_should_be_open() {
+	    
+	System.out.println("fhfghfgh");
+	}
+	@When("user should enter valid username")
+	public void user_should_enter_valid_username() {
+	    System.out.println("ghjk");
+	}
+	@When("user should enter valid password")
+	public void user_should_enter_valid_password() {
+		System.out.println("vghj");
+	    
+	}
+	@Then("aferclicking login button navigate to homepage")
+	public void aferclicking_login_button_navigate_to_homepage() {
+	    System.out.println("fghj");	}
+	
+	@Given("select location from dropdown")
+	public void select_location_from_dropdown() {
+	    System.out.println("ghj");	}
+	@When("select your room you want from dropdown")
+	public void select_your_room_you_want_from_dropdown() {
+	    System.out.println("gyu");
+	}
+	@Then("select roomtype from dropdown")
+	public void select_roomtype_from_dropdown() {
+	    System.out.println("fyhj");	}
+	@Then("select number of rooms in your dropdown")
+	public void select_number_of_rooms_in_your_dropdown() {
+	   System.out.println("gyuj");
+	}
+	@Then("select checkin date with valid format")
+	public void select_checkin_date_with_valid_format() {
+	    System.out.println("gyj");
+	}
+	@Then("select checkoutdate from dropdown")
+	public void select_checkoutdate_from_dropdown() {
+	    System.out.println("guj");
+	}
+	@Then("select number of adult in one room")
+	public void select_number_of_adult_in_one_room() {
+	    System.out.println("fym");
+	}
+	@Then("selct number of children count it is not mandatory")
+	public void selct_number_of_children_count_it_is_not_mandatory() {
+	   System.out.println("ghj");
+	}
+	@Then("click search button")
+	public void click_search_button() {
+	    System.out.println("gyj");	}
+
+
+
+
+
+}

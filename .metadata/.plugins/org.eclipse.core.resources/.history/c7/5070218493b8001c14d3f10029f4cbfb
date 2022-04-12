@@ -1,0 +1,10 @@
+
+Feature: To check flipkart functionality
+
+  @tag1
+  Scenario: user validate login page
+    Given : user is in the flipkart homepage
+    When : user is able to see flipkart logo
+    Then : user takes screenshot of the logo
+    And : close the homepage
+    

@@ -1,0 +1,75 @@
+package org.selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class Mini_Project {
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\PRIYA\\SelviSelenium-Workspace22\\Selenium\\webdriver\\chromedriver_win32 (3)\\chromedriver.exe");
+        WebDriver driver=new ChromeDriver();
+        driver.get("https://adactinhotelapp.com/");
+        driver.manage().window().maximize();
+        WebElement name = driver.findElement(By.id("username"));
+        name.sendKeys("selviharish");
+        WebElement pass = driver.findElement(By.xpath("//input[@type='password']"));
+        pass.sendKeys("vihaan1234");
+        WebElement login = driver.findElement(By.id("login"));
+        login.click();
+        WebElement location = driver.findElement(By.id("location"));
+        Select s=new Select(location);
+        s.selectByIndex(4);
+        WebElement hotel = driver.findElement(By.id("hotels"));
+        Select s1=new Select(hotel);
+        s1.selectByValue("Hotel Sunshine");
+        WebElement room = driver.findElement(By.xpath("//select[@name='room_type']"));
+        Select s2=new Select(room);
+        s2.selectByVisibleText("Super Deluxe");
+        WebElement roomno = driver.findElement(By.id("room_nos"));
+        Select s3=new Select(roomno);
+        s3.selectByValue("1");
+        WebElement checkin = driver.findElement(By.id("datepick_in"));
+        checkin.clear();
+        checkin.sendKeys("24/03/2022");
+        WebElement checkout = driver.findElement(By.id("datepick_out"));
+        checkout.clear();
+        checkout.sendKeys("26/03/2022");
+        WebElement adult = driver.findElement(By.xpath("//select[@name='adult_room']"));
+        Select s4=new Select(adult);
+        s4.selectByIndex(3);
+        WebElement child = driver.findElement(By.id("child_room"));
+        Select s5=new Select(child);
+        s5.selectByVisibleText("1 - One");
+        WebElement search = driver.findElement(By.id("Submit"));
+        search.click();
+        WebElement box = driver.findElement(By.xpath("//input[@type='radio']"));
+        box.click();
+        WebElement conti = driver.findElement(By.id("continue"));
+        conti.click();
+        WebElement firstname = driver.findElement(By.id("first_name"));
+        firstname.sendKeys("SELVI");
+        WebElement lastname = driver.findElement(By.id("last_name"));
+        lastname.sendKeys("R");
+        WebElement address = driver.findElement(By.id("address"));
+        address.sendKeys("chennai");
+        WebElement card = driver.findElement(By.id("cc_num"));
+        card.sendKeys("1234567892345788");
+        WebElement cctype = driver.findElement(By.id("cc_type"));
+        Select s6=new Select(cctype);
+        s6.selectByIndex(3);
+        WebElement month = driver.findElement(By.id("cc_exp_month"));
+        Select s7=new Select(month);
+        s7.selectByValue("9");
+        WebElement year = driver.findElement(By.id("cc_exp_year"));
+        Select s8=new Select(year);
+        s8.selectByVisibleText("2022");
+        WebElement ccv = driver.findElement(By.id("cc_cvv"));
+        ccv.sendKeys("221");
+        WebElement booknow = driver.findElement(By.id("book_now"));
+        booknow.click();      
+	}
+	}

@@ -1,0 +1,50 @@
+package com.stepdefinition;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import com.Maven_final.Base_Class;
+import com.Maven_final.Pom_Class;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+
+public class Adactin_Booking {
+	
+	//@Given("^: user is in the flipkart homepage$")
+	//public void user_is_in_the_flipkart_homepage() {
+		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\PRIYA\\SelviSelenium-Workspace22\\Selenium\\webdriver\\chromedriver.exe");
+		//WebDriver driver=new ChromeDriver();
+		//driver.get("https://www.flipkart.com");
+		//driver.manage().window().maximize(); 
+		
+	   
+	//}
+	
+		//@When("^: user is able to see flipkart logo$")
+		//public void user_is_able_to_see_flipkart_logo() {
+			//System.out.println("login");
+		 //  		}
+
+//		@Then("^: user takes screenshot of the logo$")
+	//	public void user_takes_screenshot_of_the_logo() {
+		//	System.out.println("screenshot");
+		    		}
+
+		//@Then("^: close the homepage$")
+	//	public void close_the_homepage() {
+		//	System.out.println("close");
+		    
+
+
+       //}
+
+}
+
+
+	
